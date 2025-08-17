@@ -7,7 +7,6 @@ function logStatus(status: "loading" | "success" | "error"): void {
     console.log("Something went wrong");
   }
 }
-
 logStatus("loading");
 logStatus("success");
 logStatus("error");
